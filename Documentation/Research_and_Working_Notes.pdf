@@ -1,0 +1,19 @@
+Research Notes
+
+1. How commercial IR modules work
+
+2. Why LM358 is used
+
+3. Difference between:
+   - Operational amplifier mode
+   - Comparator mode
+
+4. Problems faced:
+   - Incorrect sensitivity
+   - Ambient light interference
+   - Component positioning issues
+
+5. Solutions:
+   - Adjusted potentiometer
+   - Improved IR LED alignment
+   - Tested different ranges
