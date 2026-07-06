@@ -1,0 +1,72 @@
+InfraSense
+IR-Based Object Detection System
+
+Designed using:
+IR LED | Photodiode | LM358 Comparator
+
+Created by:
+Yaqub Baig Moghal
+
+# Introduction
+
+InfraSense is an IR-based object detection system designed from scratch by understanding the working principles of commercial IR sensor modules.
+
+The system uses infrared reflection technology to detect nearby objects. It uses an IR transmitter, receiver, and LM358 comparator circuit to convert the received signal into a detection output.
+
+# The main objectives of this project were:
+
+• Understand the internal working of IR sensor modules
+• Design a sensor circuit using basic electronic components
+• Implement comparator-based signal detection
+• Build and test a working hardware prototype
+• Improve practical knowledge of analog electronics
+
+| Component     | Purpose                     |
+| ------------- | --------------------------- |
+| IR LED        | Emits infrared light        |
+| Photodiode    | Detects reflected IR signal |
+| LM358 IC      | Works as voltage comparator |
+| Potentiometer | Adjusts sensitivity         |
+| Resistors     | Controls current flow       |
+| LED           | Shows detection output      |
+| Breadboard    | Circuit prototyping         |
+
+# Working Principle.
+
+The IR LED continuously transmits infrared rays.
+
+When an object comes near the sensor, the rays reflect back and reach the photodiode.
+
+The photodiode converts the received infrared signal into an electrical signal.
+
+The LM358 comparator compares this signal voltage with the reference voltage set by the potentiometer.
+
+Based on the comparison result, the output LED indicates object detection.
+
+# Circuit Design Explenation. 
+
+1. IR Transmitter Section
+
+    The IR LED acts as a transmitter and generates infrared radiation continuously.
+
+2. Receiver Section
+
+    The photodiode detects reflected infrared light from nearby objects.
+
+3. Comparator Section
+
+    The LM358 compares input voltage levels and generates HIGH or LOW output based on detection conditions.
+
+# Testing Results
+
+no_object_test.jpg
+object_detected_test.jpg
+
+# Through this project, I learned:
+
+• IR communication principles
+• Comparator circuit operation
+• Sensor calibration techniques
+• Analog circuit debugging
+• Hardware prototyping
+
